@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	background: #f4f4f4;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 100;
+}
+
+#header {
+	background: url('./assets/banner.jpg') right;
+}
+
+#section-first {
+	background: url('./assets/section-first.svg') no-repeat right;
+}
+
+#section-second {
+	background: url('./assets/section-second.svg') no-repeat left;
+}
