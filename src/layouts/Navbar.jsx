@@ -10,13 +10,13 @@ const Navbar = () => {
 					<h2 className="text-[#ffab00] mb-6 font-semibold tracking-wider">
 						SERVICES
 					</h2>
-					<h1 className="w-[85%] mb-10 text-6xl font-normal tracking-wide">
+					<h1 className="md:w-[85%] mb-10 text-4xl md:text-5xl lg:text-6xl font-normal tracking-wide">
 						At <span className="text-[#124af4]">NAXA</span>, we work on{' '}
 						<span className="text-[#124af4]">ideas</span>; ideas that can
 						provide <span className="text-[#124af4]">simple solutions</span> to{' '}
 						<span className="text-[#124af4]">complex problems.</span>
 					</h1>
-					<p className="w-[68%] text-xl font-medium tracking-wide">
+					<p className="md:w-[68%] text-xl font-medium tracking-wide">
 						We work as a team to generate, explore, build and validate ideas. We
 						also contextualize innovations around the world to find the best
 						fitting solutions to local problems.
