@@ -28,33 +28,33 @@ const Navbar = () => {
 				className="lg:w-[1400px] mx-auto bg-white text-black p-3 mt-[-2.5rem] font-medium"
 				style={{ boxShadow: '-1px 3px 20px -2px rgba(0,0,0,0.75)' }}
 			>
-				<ul className="flex items-center px-3 justify-between">
-					<li className="hover:opacity-70 cursor-pointer mx-4">
+				<ul className="flex flex-col lg:flex-row items-center px-3 justify-between">
+					<li className="hover:opacity-70 cursor-pointer mx-4 my-2 lg:my-0">
 						<Link to="section-1" smooth={true} duration={500}>
 							Software & Apps Development
 						</Link>
 					</li>
-					<li className="hover:opacity-70 cursor-pointer mx-4">
+					<li className="hover:opacity-70 cursor-pointer mx-4 my-2 lg:my-0">
 						<Link to="section-2" smooth={true} duration={500}>
 							GIS Mapping & Analysis
 						</Link>
 					</li>
-					<li className="hover:opacity-70 cursor-pointer mx-4">
+					<li className="hover:opacity-70 cursor-pointer mx-4 my-2 lg:my-0">
 						<Link to="section-3" smooth={true} duration={500}>
 							Data Collection & Visualization
 						</Link>
 					</li>
-					<li className="hover:opacity-70 cursor-pointer mx-4">
+					<li className="hover:opacity-70 cursor-pointer mx-4 my-2 lg:my-0">
 						<Link to="section-4" smooth={true} duration={500}>
 							ICT & Digital Development Research
 						</Link>
 					</li>
-					<li className="hover:opacity-70 cursor-pointer mx-4">
+					<li className="hover:opacity-70 cursor-pointer mx-4 my-2 lg:my-0">
 						<Link to="section-5" smooth={true} duration={500}>
 							Frontier Technologies{' '}
 						</Link>
 					</li>
-					<li className="hover:opacity-70 cursor-pointer mx-4">
+					<li className="hover:opacity-70 cursor-pointer mx-4 my-2 lg:my-0">
 						<Link to="section-6" smooth={true} duration={500}>
 							Training & Capacity building
 						</Link>
