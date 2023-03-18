@@ -17,10 +17,10 @@ const SectionThird = ({ services }) => {
 					className="w-[65px] mb-8"
 				/>
 				<h1 className="text-3xl font-bold">{service.title}</h1>
-				<p className="my-7">
+				<p className="my-7 text-justify">
 					{service.description1.replaceAll('<p>', '').replaceAll('</p>', '')}
 				</p>
-				<p className="bg-[#e9ebff] px-6 py-7">
+				<p className="bg-[#e9ebff] px-6 py-7 text-justify">
 					{service.description2.replaceAll('<p>', '').replaceAll('</p>', '')}
 				</p>
 			</div>
